@@ -9,5 +9,4 @@ run:
 	@.\$(OUTPUT)
 
 clean:
-	@remove-item -fo E:\Studying\C++\ContactList
-
+	@rm -fo .\$(OUTPUT)
