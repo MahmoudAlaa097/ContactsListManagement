@@ -10,6 +10,7 @@ void showMenu(void)
     std::cout << "4. Get Contact." << std::endl;
     std::cout << "5. Remove Contact." << std::endl;
     std::cout << "6. Delete Contacts." << std::endl;
+    std::cout << "q. Quit" <<std::endl;
 }
 
 void getData(std::string& name, std::string& phone, std::string& addr, bool& gender, int& age)
